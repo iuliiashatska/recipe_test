@@ -1,4 +1,4 @@
-recipes0:
+recipes:
   vector_canoe_0:
     name: "Vector CANoe_0"
     description: "Tool for simulating and testing automotive network protocols like CAN, LIN, FlexRay."
@@ -6,6 +6,8 @@ recipes0:
       v10.0:
         playbook: "playbooks/vector_canoe-v10.0.yml"
         metadata:
+          supported_arch:
+            - x86_64
           supported_arch:
             - x86_64
           minimum_ram_gb: "8"
