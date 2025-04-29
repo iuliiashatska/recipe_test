@@ -7,9 +7,7 @@ recipes:
         playbook: "playbooks/vector_canoe-v10.0.yml"
         metadata:
           supported_arch:
-            - x86_64
-          supported_arch:
-            - x86_64
+            - x86_640
           minimum_ram_gb: "8"
       v11.0:
         playbook: "playbooks/vector_canoe-v11.0.yml"
